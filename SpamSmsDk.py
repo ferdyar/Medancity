@@ -34,7 +34,7 @@ def main():
 
         ua = {
         'Connection': 'keep-alive',
-        'User-Agent': 'Mozilla/5.0 (Linux; Android 7.0; M50 STAR Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.137 Mobile Safari/537.36        
+        'User-Agent': 'Mozilla/5.0 (Linux; Android 7.0; M50 STAR Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.137 Mobile Safari/537.36',        
         'Referer': 'https://www.mapclub.com/en/user/signup',
         }
 
